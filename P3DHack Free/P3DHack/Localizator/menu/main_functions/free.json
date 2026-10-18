@@ -1,0 +1,34 @@
+{
+	"menu_id": "p3dtext_options_free",
+	"parent_menu_id": "p3dtext_options_main_function",
+	"title": "Free_function",
+	"back_callback": "settings_save",
+	"items": [
+		{
+			"type": "multiple_choice",
+			"id": "Free",
+			"title": "",
+			"items": [
+				"Free_function"
+			],
+			"value": "Free_function",
+			"default_value": false
+		},
+		{
+			"type": "divider",
+			"size": 5
+		},
+		{
+			"type": "button",
+			"id": "premium_buy",
+			"title": "premium_buy_title",
+			"callback": "premium_buy"
+		},
+		{
+			"type": "button",
+			"id": "config",
+			"title": "config_title",
+			"callback": "config"
+		}
+	]
+}

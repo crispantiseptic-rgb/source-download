@@ -1,0 +1,19 @@
+{
+	"P3DHack_Config": "P3DHack Config",
+	"Player_Menu_Config_func":"F1",
+	"Weapon_Menu_Config_func":"F2",
+	"Stealth_Menu_Config_func":"F3",
+	"InteractTimer_Menu_Config_func":"F7",
+	"Job_Menu_Config_button_func":"F10",
+	"Premium":"Premium",
+
+	"P3D_Eng": "English",
+	"P3D_Rus": "Russian",
+	"P3D_Fre": "French",
+	"P3D_Ger": "German",
+	"P3D_Spa": "Spanish",
+	"P3D_Por": "Portuguese",
+	"P3D_Znc": "Chinese",
+	"P3D_Dan": "Danish",
+	"P3D_Cus": "Custom"
+}

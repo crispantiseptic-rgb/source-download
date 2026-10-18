@@ -1,0 +1,112 @@
+{
+	"menu_id": "p3dtext_options_hud_function",
+	"parent_menu_id": "p3dtext_options_main_function",
+	"title": "hud_function",
+	"back_callback": "p3dtext_menu",
+	"items": [
+		{
+			"type": "multiple_choice",
+			"id": "hud",
+			"title": "",
+			"items": [
+				"hud_function"
+			],
+			"value": "hud_function",
+			"default_value": false
+		},
+		{
+			"type": "divider",
+			"size": 5
+		},
+		{
+			"type": "button",
+			"id": "premium_buy",
+			"title": "premium_buy_title",
+			"callback": "premium_buy"
+		},
+		{
+			"type": "button",
+			"id": "config",
+			"title": "config_title",
+			"callback": "config"
+		},
+		{
+			"type": "divider",
+			"size": 25
+		},
+		{
+			"type": "multiple_choice",
+			"id": "Hide_Functions",
+			"title": "",
+			"items": [
+				"Hide_Functions"
+			],
+			"value": "Hide_Functions",
+			"default_value": false
+		},
+		{
+			"type": "divider",
+			"size": 5
+		},
+		{
+			"type": "button",
+			"id": "premium_buy",
+			"title": "premium_buy_title",
+			"callback": "premium_buy"
+		},
+		{
+			"type": "button",
+			"id": "config",
+			"title": "config_title",
+			"callback": "config"
+		},
+		{
+			"type": "divider",
+			"size": 25
+		},
+		{
+			"type": "multiple_choice",
+			"id": "Skip_Functions",
+			"title": "",
+			"items": [
+				"Skip_Functions"
+			],
+			"value": "Skip_Functions",
+			"default_value": false
+		},
+		{
+			"type": "divider",
+			"size": 5
+		},
+		{
+			"type": "button",
+			"id": "premium_buy",
+			"title": "premium_buy_title",
+			"callback": "premium_buy"
+		},
+		{
+			"type": "button",
+			"id": "config",
+			"title": "config_title",
+			"callback": "config"
+		},
+		{
+			"type": "divider",
+			"size": 25
+		},
+		{
+			"type": "multiple_choice",
+			"id": "rss_options",
+			"title": "",
+			"items": [
+				"rss_options"
+			],
+			"value": "rss_options",
+			"default_value": false
+		},
+		{
+			"type": "divider",
+			"size": 5
+		}
+	]
+}

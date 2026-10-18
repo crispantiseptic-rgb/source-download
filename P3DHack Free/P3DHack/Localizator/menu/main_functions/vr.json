@@ -1,0 +1,29 @@
+{
+	"menu_id": "p3dtext_options_vrmenu_function",
+	"parent_menu_id": "p3dtext_options_main_function",
+	"title": "vrmenu",
+	"back_callback": "settings_save",
+	"items": [
+		{
+			"type": "multiple_choice",
+			"id": "vrmenu",
+			"title": "",
+			"items": [
+				"vrmenu"
+			],
+			"value": "vrmenu",
+			"default_value": false
+		},
+		{
+			"type": "divider",
+			"size": 5
+		},
+		{
+			"type": "button",
+			"id": "premium_buy",
+			"title": "premium_buy_title",
+			"callback": "premium_buy"
+		}
+	]
+}
+}

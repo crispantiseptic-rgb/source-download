@@ -1,0 +1,46 @@
+{
+	"menu_id": "p3dtext_options_premium",
+	"parent_menu_id": "p3dtext_options_main_function",
+	"title": "Premium",
+	"back_callback": "settings_save",
+	"items": [
+		{
+			"type": "multiple_choice",
+			"id": "Main",
+			"title": "",
+			"items": [
+				"Main_function"
+			],
+			"value": "Main_function",
+			"default_value": false
+		},
+		{
+			"type": "divider",
+			"size": 5
+		},
+		{
+			"type": "button",
+			"id": "premium_buy",
+			"title": "premium_buy_title",
+			"callback": "premium_buy"
+		},
+		{
+			"type": "divider",
+			"size": 25
+		},
+		{
+			"type": "multiple_choice",
+			"id": "other_menus",
+			"title": "",
+			"items": [
+				"other_menus"
+			],
+			"value": "other_menus",
+			"default_value": false
+		},
+		{
+			"type": "divider",
+			"size": 5
+		}
+	]
+}

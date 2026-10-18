@@ -1,0 +1,197 @@
+{
+	"menu_id": "p3dtext_options_menu",
+	"parent_menu_id": "blt_options",
+	"title": "p3dtext_options",
+	"back_callback": "settings_save",
+	"items": [
+		{
+			"type": "multiple_choice",
+			"id": "save_and_reload_btn",
+			"title": "",
+			"items": [
+				"save_and_reload_title"
+			],
+			"value": "save_and_reload_btn",
+			"default_value": false
+		},
+		{
+			"type": "divider",
+			"size": 5
+		},
+		{
+			"type" : "button",
+			"id" : "save_and_reload",
+			"title" : "save_and_reload_title",
+			"description" : "save_and_reload_desc",
+			"callback" : "save_and_reload"
+		},
+		{
+			"type": "divider",
+			"size": 25
+		},
+		{
+			"type": "multiple_choice",
+			"id": "premium_buy_text",
+			"title": "",
+			"items": [
+				"premium_buy_title"
+			],
+			"value": "premium_buy_text",
+			"default_value": false
+		},
+		{
+			"type": "divider",
+			"size": 5
+		},
+		{
+			"type": "button",
+			"id": "premium_buy",
+			"title": "premium_buy_title",
+			"callback": "premium_buy"
+		},
+		{
+			"type": "toggle",
+			"id": "NameSpoofer",
+			"title": "NameSpoofer_title",
+			"description": "NameSpoofer_desc",
+			"callback": "settings_callback_toggle",
+			"value": "NameSpoofer",
+			"default_value": false
+		},
+		{
+			"type": "divider",
+			"size": 25
+		},
+		{
+			"type": "multiple_choice",
+			"id": "Language_text",
+			"title": "",
+			"items": [
+				"Language_text"
+			],
+			"value": "Language_text",
+			"default_value": false
+		},
+		{
+			"type": "divider",
+			"size": 5
+		},
+		{
+			"type": "multiple_choice",
+			"id": "p3dtext_language",
+			"title": "p3dtext_language_title",
+			"callback": "p3dtext_language_callback",
+			"items": [
+				"P3D_Eng",
+				"P3D_Rus",
+				"P3D_Fre",
+				"P3D_Ger",
+				"P3D_Spa",
+				"P3D_Por",
+				"P3D_Znc",
+				"P3D_Dan",
+				"P3D_Cus"
+			],
+			"value": "P3D_lang",
+			"default_value": 1
+		},
+		{
+			"type": "divider",
+			"size": 25
+		},
+		{
+			"type": "multiple_choice",
+			"id": "Unlockers",
+			"title": "",
+			"items": [
+				"Unlockers"
+			],
+			"value": "Unlockers",
+			"default_value": false
+		},
+		{
+			"type": "divider",
+			"size": 5
+		},
+		{
+			"type": "toggle",
+			"id": "dlc",
+			"title": "dlc_title",
+			"callback": "settings_callback_toggle",
+			"value": "dlc",
+			"default_value": false
+		},
+		{
+			"type": "toggle",
+			"id": "skin",
+			"title": "skin_title",
+			"callback": "settings_callback_toggle",
+			"value": "skin",
+			"default_value": false
+		},
+		{
+			"type": "toggle",
+			"id": "skin_armor",
+			"title": "skin_armor_title",
+			"callback": "settings_callback_toggle",
+			"value": "skin_armor",
+			"default_value": false
+		},
+		{
+			"type": "toggle",
+			"id": "specific_weapons_unlocker",
+			"title": "specific_weapons_unlocker_title",
+			"callback": "settings_callback_toggle",
+			"value": "specific_weapons_unlocker",
+			"default_value": false
+		},
+		{
+			"type": "divider",
+			"size": 25
+		},
+		{
+			"type": "multiple_choice",
+			"id": "hider_text",
+			"title": "",
+			"items": [
+				"hider_title"
+			],
+			"value": "hider_title",
+			"default_value": false
+		},
+		{
+			"type": "divider",
+			"size": 5
+		},
+		{
+			"type": "multiple_choice",
+			"id": "hider_type",
+			"title": "hider_type_title",
+			"callback": "settings_callback",
+			"items": [
+				"global_premium",
+				"All"
+			],
+			"value": "hider_type",
+			"default_value": 1
+		},
+		{
+			"type": "divider",
+			"size": 25
+		},
+		{
+			"type": "multiple_choice",
+			"id": "other_menus",
+			"title": "",
+			"items": [
+				"other_menus"
+			],
+			"value": "other_menus",
+			"default_value": false
+		},
+		{
+			"type": "divider",
+			"size": 5
+		}
+	]
+}

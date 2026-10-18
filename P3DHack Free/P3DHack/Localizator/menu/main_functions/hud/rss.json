@@ -1,0 +1,124 @@
+{
+	"menu_id": "p3dtext_options_rssmenu_function",
+	"parent_menu_id": "p3dtext_options_hud_function",
+	"title": "rss_options",
+	"back_callback": "settings_save",
+	"items": [
+		{
+			"type": "multiple_choice",
+			"id": "gap_menus_text",
+			"title": "",
+			"items": [
+				"gap_menus_text"
+			],
+			"value": "gap_menus_text",
+			"default_value": false
+		},
+		{
+			"type": "divider",
+			"size": 5
+		},
+		{
+			"type": "button",
+			"id": "premium_buy",
+			"title": "premium_buy_title",
+			"callback": "premium_buy"
+		},
+		{
+			"type": "button",
+			"id": "config",
+			"title": "config_title",
+			"callback": "config"
+		},
+		{
+			"type": "divider",
+			"size": 25
+		},
+		{
+			"type": "multiple_choice",
+			"id": "gap_offsets_text",
+			"title": "",
+			"items": [
+				"gap_offsets_text"
+			],
+			"value": "gap_offsets_text",
+			"default_value": false
+		},
+		{
+			"type": "divider",
+			"size": 5
+		},
+		{
+			"type": "button",
+			"id": "premium_buy",
+			"title": "premium_buy_title",
+			"callback": "premium_buy"
+		},
+		{
+			"type": "button",
+			"id": "config",
+			"title": "config_title",
+			"callback": "config"
+		},
+		{
+			"type": "divider",
+			"size": 25
+		},
+		{
+			"type": "multiple_choice",
+			"id": "gap_time_text",
+			"title": "",
+			"items": [
+				"gap_time_text"
+			],
+			"value": "gap_time_text",
+			"default_value": false
+		},
+		{
+			"type": "divider",
+			"size": 5
+		},
+		{
+			"type": "button",
+			"id": "premium_buy",
+			"title": "premium_buy_title",
+			"callback": "premium_buy"
+		},
+		{
+			"type": "button",
+			"id": "config",
+			"title": "config_title",
+			"callback": "config"
+		},
+		{
+			"type": "divider",
+			"size": 25
+		},
+		{
+			"type": "multiple_choice",
+			"id": "gap_news_text",
+			"title": "",
+			"items": [
+				"gap_news_text"
+			],
+			"value": "gap_news_text",
+			"default_value": false
+		},
+		{
+			"type": "divider",
+			"size": 5
+		},
+		{
+			"type": "button",
+			"id": "premium_buy",
+			"title": "premium_buy_title",
+			"callback": "premium_buy"
+		},
+		{
+			"type": "button",
+			"id": "config",
+			"title": "config_title",
+			"callback": "config"
+		}
+	]
+}

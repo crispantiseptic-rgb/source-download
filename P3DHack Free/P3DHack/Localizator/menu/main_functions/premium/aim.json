@@ -1,0 +1,52 @@
+{
+	"menu_id": "p3dtext_options_aim",
+	"parent_menu_id": "p3dtext_options_premium",
+	"title": "change_aim_function",
+	"back_callback": "settings_save",
+	"items": [
+		{
+			"type": "multiple_choice",
+			"id": "menu_f11_text_keybind8",
+			"title": "",
+			"items": [
+				"menu_f11_text_keybind8"
+			],
+			"value": "menu_f11_text_keybind8",
+			"default_value": false
+		},
+		{
+			"type": "divider",
+			"size": 5
+		},
+		{
+			"type": "button",
+			"id": "premium_buy",
+			"title": "premium_buy_title",
+			"callback": "premium_buy"
+		},
+		{
+			"type": "divider",
+			"size": 25
+		},
+		{
+			"type": "multiple_choice",
+			"id": "autoshoot",
+			"title": "",
+			"items": [
+				"autoshoot"
+			],
+			"value": "autoshoot",
+			"default_value": false
+		},
+		{
+			"type": "divider",
+			"size": 5
+		},
+		{
+			"type": "button",
+			"id": "premium_buy",
+			"title": "premium_buy_title",
+			"callback": "premium_buy"
+		}
+	]
+}

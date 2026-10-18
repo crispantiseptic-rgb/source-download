@@ -1,0 +1,27 @@
+{
+	"menu_id" : "p3dtext_options_customapi_function",
+	"parent_menu_id" : "p3dtext_options_menu",
+	"title" : "customapi_function",
+	"back_callback" : "p3dtext_menu",
+	"items": [
+		{
+			"type": "multiple_choice",
+			"id": "customapi_function",
+			"title": "",
+			"description": "customapi_function",
+			"items": [
+				"customapi_function"
+			],
+			"value": "customapi_function",
+			"default_value": false
+		},
+		{
+			"type": "divider",
+			"size": 10
+		},
+		{
+			"type" : "divider",
+			"size" : 5
+		}
+	]
+}

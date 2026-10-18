@@ -1,0 +1,172 @@
+{
+	"menu_id": "p3dtext_options_auto",
+	"parent_menu_id": "p3dtext_options_menu",
+	"title": "Auto_func",
+	"back_callback": "settings_save",
+	"items": [
+		{
+			"type": "multiple_choice",
+			"id": "Keyboard_Auto_Config",
+			"title": "",
+			"items": [
+				"Keyboard_Auto_Config"
+			],
+			"value": "Keyboard_Auto_Config",
+			"default_value": false
+		},
+		{
+			"type": "multiple_choice",
+			"id": "keyboard_keybinds",
+			"title": "",
+			"items": [
+				"keyboard_keybinds"
+			],
+			"value": "keyboard_keybinds",
+			"default_value": false
+		},
+		{
+			"type": "button",
+			"id": "premium_buy",
+			"title": "premium_buy_title",
+			"callback": "premium_buy"
+		},
+		{
+			"type": "button",
+			"id": "config",
+			"title": "config_title",
+			"callback": "config"
+		},
+		{
+			"type": "divider",
+			"size": 25
+		},
+		{
+			"type": "multiple_choice",
+			"id": "Auto_func",
+			"title": "",
+			"items": [
+				"Auto_func"
+			],
+			"value": "Auto_func",
+			"default_value": false
+		},
+		{
+			"type": "multiple_choice",
+			"id": "Player_Menu_Config_func",
+			"title": "",
+			"items": [
+				"Player_Menu_Config_func"
+			],
+			"value": "Player_Menu_Config_func",
+			"default_value": false
+		},
+		{
+			"type": "divider",
+			"size": 5
+		},
+		{
+			"type": "button",
+			"id": "premium_buy",
+			"title": "premium_buy_title",
+			"callback": "premium_buy"
+		},
+		{
+			"type": "multiple_choice",
+			"id": "Weapon_Menu_Config_func",
+			"title": "",
+			"items": [
+				"Weapon_Menu_Config_func"
+			],
+			"value": "Weapon_Menu_Config_func",
+			"default_value": false
+		},
+		{
+			"type": "divider",
+			"size": 5
+		},
+		{
+			"type": "button",
+			"id": "premium_buy",
+			"title": "premium_buy_title",
+			"callback": "premium_buy"
+		},
+		{
+			"type": "multiple_choice",
+			"id": "Stealth_Menu_Config_func",
+			"title": "",
+			"items": [
+				"Stealth_Menu_Config_func"
+			],
+			"value": "Stealth_Menu_Config_func",
+			"default_value": false
+		},
+		{
+			"type": "divider",
+			"size": 5
+		},
+		{
+			"type": "button",
+			"id": "premium_buy",
+			"title": "premium_buy_title",
+			"callback": "premium_buy"
+		},
+		{
+			"type": "multiple_choice",
+			"id": "InteractTimer_Menu_Config_func",
+			"title": "",
+			"items": [
+				"InteractTimer_Menu_Config_func"
+			],
+			"value": "InteractTimer_Menu_Config_func",
+			"default_value": false
+		},
+		{
+			"type": "divider",
+			"size": 5
+		},
+		{
+			"type": "button",
+			"id": "premium_buy",
+			"title": "premium_buy_title",
+			"callback": "premium_buy"
+		},
+		{
+			"type": "multiple_choice",
+			"id": "Job_Menu_Config_button_func",
+			"title": "",
+			"items": [
+				"Job_Menu_Config_button_func"
+			],
+			"value": "Job_Menu_Config_button_func",
+			"default_value": false
+		},
+		{
+			"type": "divider",
+			"size": 5
+		},
+		{
+			"type": "button",
+			"id": "premium_buy",
+			"title": "premium_buy_title",
+			"callback": "premium_buy"
+		},
+		{
+			"type": "divider",
+			"size": 25
+		},
+		{
+			"type": "multiple_choice",
+			"id": "NewMenu",
+			"title": "",
+			"items": [
+				"NewMenu_function"
+			],
+			"value": "NewMenu_function",
+			"default_value": false
+		},
+		{
+			"type": "divider",
+			"size": 5
+		}
+	]
+}

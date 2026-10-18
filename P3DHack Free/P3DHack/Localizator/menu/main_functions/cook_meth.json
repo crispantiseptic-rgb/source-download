@@ -1,0 +1,94 @@
+{
+	"menu_id": "p3dtext_options_cookfaster",
+	"parent_menu_id": "p3dtext_options_main_function",
+	"title": "CookMeth_function",
+	"back_callback": "settings_save",
+	"items": [
+		{
+			"type": "multiple_choice",
+			"id": "CookMeth",
+			"title": "",
+			"items": [
+				"CookMeth_function"
+			],
+			"value": "CookMeth_function",
+			"default_value": false
+		},
+		{
+			"type": "divider",
+			"size": 5
+		},
+		{
+			"type": "button",
+			"id": "premium_buy",
+			"title": "premium_buy_title",
+			"callback": "premium_buy"
+		},
+		{
+			"type": "button",
+			"id": "config",
+			"title": "config_title",
+			"callback": "config"
+		},
+		{
+			"type": "divider",
+			"size": 25
+		},
+		{
+			"type": "multiple_choice",
+			"id": "waypoints",
+			"title": "",
+			"items": [
+				"waypoints"
+			],
+			"value": "waypoints",
+			"default_value": false
+		},
+		{
+			"type": "divider",
+			"size": 5
+		},
+		{
+			"type": "button",
+			"id": "premium_buy",
+			"title": "premium_buy_title",
+			"callback": "premium_buy"
+		},
+		{
+			"type": "button",
+			"id": "config",
+			"title": "config_title",
+			"callback": "config"
+		},
+		{
+			"type": "divider",
+			"size": 25
+		},
+		{
+			"type": "multiple_choice",
+			"id": "Delay_func_title",
+			"title": "",
+			"items": [
+				"Delay_func_title"
+			],
+			"value": "Delay_func_title",
+			"default_value": false
+		},
+		{
+			"type": "divider",
+			"size": 5
+		},
+		{
+			"type": "button",
+			"id": "premium_buy",
+			"title": "premium_buy_title",
+			"callback": "premium_buy"
+		},
+		{
+			"type": "button",
+			"id": "config",
+			"title": "config_title",
+			"callback": "config"
+		}
+	]
+}

@@ -1,0 +1,34 @@
+{
+	"menu_id": "p3dtext_options_bullet_penetration",
+	"parent_menu_id": "p3dtext_options_main_function",
+	"title": "Bullet_Penetration_func",
+	"back_callback": "settings_save",
+	"items": [
+		{
+			"type": "multiple_choice",
+			"id": "Bullet_Penetration_func",
+			"title": "",
+			"items": [
+				"Bullet_Penetration_func"
+			],
+			"value": "Bullet_Penetration_func",
+			"default_value": false
+		},
+		{
+			"type": "divider",
+			"size": 5
+		},
+		{
+			"type": "button",
+			"id": "premium_buy",
+			"title": "premium_buy_title",
+			"callback": "premium_buy"
+		},
+		{
+			"type": "button",
+			"id": "config",
+			"title": "config_title",
+			"callback": "config"
+		}
+	]
+}

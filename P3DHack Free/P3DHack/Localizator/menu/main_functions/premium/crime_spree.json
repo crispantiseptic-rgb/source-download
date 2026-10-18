@@ -1,0 +1,28 @@
+{
+	"menu_id": "p3dtext_options_crime_spree_function",
+	"parent_menu_id": "p3dtext_options_premium",
+	"title": "crime_spree_boost",
+	"back_callback": "settings_save",
+	"items": [
+		{
+			"type": "multiple_choice",
+			"id": "crime_spree",
+			"title": "",
+			"items": [
+				"crime_spree_boost"
+			],
+			"value": "crime_spree",
+			"default_value": false
+		},
+		{
+			"type": "divider",
+			"size": 5
+		},
+		{
+			"type": "button",
+			"id": "premium_buy",
+			"title": "premium_buy_title",
+			"callback": "premium_buy"
+		}
+	]
+}

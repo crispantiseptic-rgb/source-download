@@ -1,0 +1,34 @@
+{
+	"menu_id": "p3dtext_options_NewMenu_function",
+	"parent_menu_id": "p3dtext_options_auto",
+	"title": "NewMenu_function",
+	"back_callback": "settings_save",
+	"items": [
+		{
+			"type": "multiple_choice",
+			"id": "NewMenu",
+			"title": "",
+			"items": [
+				"NewMenu_function"
+			],
+			"value": "NewMenu_function",
+			"default_value": false
+		},
+		{
+			"type": "divider",
+			"size": 5
+		},
+		{
+			"type": "button",
+			"id": "premium_buy",
+			"title": "premium_buy_title",
+			"callback": "premium_buy"
+		},
+		{
+			"type": "button",
+			"id": "config",
+			"title": "config_title",
+			"callback": "config"
+		}
+	]
+}

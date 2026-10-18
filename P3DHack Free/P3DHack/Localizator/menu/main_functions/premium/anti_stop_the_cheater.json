@@ -1,0 +1,28 @@
+{
+	"menu_id": "p3dtext_options_antistopthecheater",
+	"parent_menu_id": "p3dtext_options_premium",
+	"title": "antistopthecheater_function",
+	"back_callback": "settings_save",
+	"items": [
+		{
+			"type": "multiple_choice",
+			"id": "antistopthecheater",
+			"title": "",
+			"items": [
+				"antistopthecheater_function"
+			],
+			"value": "antistopthecheater_function",
+			"default_value": false
+		},
+		{
+			"type": "divider",
+			"size": 5
+		},
+		{
+			"type": "button",
+			"id": "premium_buy",
+			"title": "premium_buy_title",
+			"callback": "premium_buy"
+		}
+	]
+}

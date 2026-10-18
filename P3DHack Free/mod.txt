@@ -1,0 +1,414 @@
+{
+	"name": "P3DHack Free",
+	"description": "Best hack by professional team\n\nWebsite: P3DHack.ru\nDiscord: Discord.gg/HBD3rXg",
+	"author": "P3DHack Group",
+	"contact": "\nWebsite: P3DHack.ru\nFacebook: facebook.com/p3dhack\nVK: vk.com/p3dhack_payday",
+	"version": "2.00",
+	"priority": 995,
+	"blt_version": 2,
+	"color": "36 36 36",
+	"image": "logo.png",
+	"updates": [
+		{
+			"identifier" : "P3DHack_Free_30",
+			"host": {
+				"meta": "https://raw.githubusercontent.com/The3DReaL/P3DHack_Free_30/master/P3DHack_Free_30.json",
+				"download": "https://raw.githubusercontent.com/The3DReaL/P3DHack_Free_30/master/P3DHack_Free_30.zip",
+				"patchnotes": "https://p3dhack.ru/index.php?/files/file/1-p3dhack-free/"
+			}
+		}
+	],
+	"persist_scripts": [
+		{
+			"global": "P3DMeaning",
+			"script_path": "P3DHack/Localizator/Meaning.luac"
+		}
+	],
+	"hooks": [
+		{
+			"hook_id": "lib/managers/menu/lootdropscreengui",
+			"script_path": "P3DHack/Hooked/AutoCard.luac"
+		},
+		{
+			"hook_id": "lib/units/weapons/raycastweaponbase",
+			"script_path": "P3DHack/Hooked/BulletFire.luac"
+		},
+		{
+			"hook_id": "lib/network/base/basenetworksession",
+			"script_path": "P3DHack/Hooked/DropInPauseRemove.luac"
+		},
+		{
+			"hook_id": "lib/network/networkgame",
+			"script_path": "P3DHack/Hooked/DropInPauseRemove.luac"
+		},
+		{
+			"hook_id": "lib/managers/hudmanagerpd2",
+			"script_path": "P3DHack/Hooked/HudSpawn.luac"
+		},
+		{
+			"hook_id": "lib/managers/hud/hudtemp",
+			"script_path": "P3DHack/Hooked/HudSpawn.luac"
+		},
+		{
+			"hook_id": "lib/units/beings/player/states/playercivilian",
+			"script_path": "P3DHack/Hooked/Interact.luac"
+		},
+		{
+			"hook_id": "lib/units/beings/player/states/playerstandard",
+			"script_path": "P3DHack/Hooked/Interact.luac"
+		},
+		{
+			"hook_id": "lib/units/beings/player/states/playerdriving",
+			"script_path": "P3DHack/Hooked/Interact.luac"
+		},
+		{
+			"hook_id": "lib/states/ingameaccesscamera",
+			"script_path": "P3DHack/Hooked/NoCamFilter.luac"
+		},
+		{
+			"hook_id": "lib/managers/jobmanager",
+			"script_path": "P3DHack/Hooked/NoJobHeat.luac"
+		},
+		{
+			"hook_id": "lib/managers/menu/menunodegui",
+			"script_path": "P3DHack/Hooked/P3DHack.luac"
+		},
+		{
+			"hook_id": "lib/managers/menumanager",
+			"script_path": "P3DHack/Hooked/P3DHackMenu.luac"
+		},
+		{
+			"hook_id": "lib/managers/dialogmanager",
+			"script_path": "P3DHack/Hooked/RatsMessage.luac"
+		},
+		{
+			"hook_id": "lib/managers/skilltreemanager",
+			"script_path": "P3DHack/Hooked/SkillResetFix.luac"
+		},
+		{
+			"hook_id": "lib/states/missionendstate",
+			"script_path": "P3DHack/Hooked/SkipEndScreen.luac"
+		},
+		{
+			"hook_id": "lib/tweak_data/weapontweakdata",
+			"script_path": "P3DHack/Hooked/WeaponTweak.luac"
+		},
+		{
+			"hook_id": "lib/units/beings/player/states/playercarry",
+			"script_path": "P3DHack/Hooked/ZiplineCarryDrop.luac"
+		},
+		{
+			"hook_id": "lib/managers/DLCManager",
+			"script_path": "P3DHack/Localizator/LocalizationManagers.luac"
+		},
+		{
+			"hook_id": "lib/managers/menu/contractboxgui",
+			"script_path": "P3DHack/RSS/contractboxgui.luac"
+		},
+		{
+			"hook_id": "lib/managers/menu/crimespreecontractboxgui",
+			"script_path": "P3DHack/RSS/crimespreecontractboxgui.luac"
+		},
+		{
+			"hook_id": "lib/managers/menu/menupauserenderer",
+			"script_path": "P3DHack/RSS/menupauserenderer.luac"
+		},
+		{
+			"hook_id": "lib/managers/menu/NewHeistsGui",
+			"script_path": "P3DHack/RSS/NewHeistsGui.luac"
+		},
+		{
+			"hook_id": "lib/managers/menu/newsfeedgui",
+			"script_path": "P3DHack/RSS/newsfeedgui.luac"
+		},
+		{
+			"hook_id": "lib/states/ingamewaitingforplayers",
+			"script_path": "P3DHack/Tools/InGameAuto.luac"
+		},
+		{
+			"hook_id": "lib/entry",
+			"script_path": "P3DHack/Init.luac"
+		}
+	],
+	"keybinds": [
+		{
+			"keybind_id": "CustomAPI",
+			"name": "CustomAPI - Button",
+			"description": "Bind at your custom button",
+			"script_path": "CustomAPI/CustomAPI.luac",
+			"run_in_menu": true,
+			"run_in_game": true,
+			"localized": false
+		},
+		{
+			"keybind_id": "VK_F1",
+			"name": "F1 - PLAYER MENU",
+			"description": "Bind at F1",
+			"script_path": "P3DHack/Button/Menu/F1.luac",
+			"run_in_menu": false,
+			"run_in_game": true,
+			"localized": false
+		},
+		{
+			"keybind_id": "VK_F2",
+			"name": "F2 - WEAPON MENU",
+			"description": "Bind at F2",
+			"script_path": "P3DHack/Button/Menu/F2.luac",
+			"run_in_menu": false,
+			"run_in_game": true,
+			"localized": false
+		},
+		{
+			"keybind_id": "VK_F3",
+			"name": "F3 - STEALTH MENU.lua",
+			"description": "Bind at F3",
+			"script_path": "P3DHack/Button/Menu/F3.luac",
+			"run_in_menu": false,
+			"run_in_game": true,
+			"localized": false
+		},
+		{
+			"keybind_id": "VK_F4",
+			"name": "F4 - MISSION MANIPULATOR MENU",
+			"description": "Bind at F4",
+			"script_path": "P3DHack/Button/Menu/F4.luac",
+			"run_in_menu": false,
+			"run_in_game": true,
+			"localized": false
+		},
+		{
+			"keybind_id": "VK_F5",
+			"name": "F5 - INVENTORY MENU",
+			"description": "Bind at F5",
+			"script_path": "P3DHack/Button/Menu/F5.luac",
+			"run_in_menu": false,
+			"run_in_game": true,
+			"localized": false
+		},
+		{
+			"keybind_id": "VK_F6",
+			"name": "F6 - MONEY MENU",
+			"description": "Bind at F6",
+			"script_path": "P3DHack/Button/Menu/F6.luac",
+			"run_in_menu": false,
+			"run_in_game": true,
+			"localized": false
+		},
+		{
+			"keybind_id": "VK_F7",
+			"name": "F7 - INTERACT TIMER MENU",
+			"description": "Bind at F7",
+			"script_path": "P3DHack/Button/Menu/F7.luac",
+			"run_in_menu": false,
+			"run_in_game": true,
+			"localized": false
+		},
+		{
+			"keybind_id": "VK_F8",
+			"name": "F8 - TROLL MENU",
+			"description": "Bind at F8",
+			"script_path": "P3DHack/Button/Menu/F8.luac",
+			"run_in_menu": false,
+			"run_in_game": true,
+			"localized": false
+		},
+		{
+			"keybind_id": "VK_F9",
+			"name": "F9 - JOB SELECTOR MENU",
+			"description": "Bind at F9",
+			"script_path": "P3DHack/Button/Menu/F9.luac",
+			"run_in_menu": true,
+			"run_in_game": true,
+			"localized": false
+		},
+		{
+			"keybind_id": "VK_F10",
+			"name": "F10 - PREGAME MENU",
+			"description": "Bind at F10",
+			"script_path": "P3DHack/Button/Menu/F10.luac",
+			"run_in_menu": true,
+			"run_in_game": true,
+			"localized": false
+		},
+		{
+			"keybind_id": "VK_F11",
+			"name": "F11 - HELP MENU",
+			"description": "Bind at F11",
+			"script_path": "P3DHack/Button/Menu/F11.luac",
+			"run_in_menu": true,
+			"run_in_game": true,
+			"localized": false
+		},
+		{
+			"keybind_id": "VK_ADD",
+			"name": "NUMPLUS - SPAWN MENU",
+			"description": "Bind at NUM PLUS",
+			"script_path": "P3DHack/Button/Menu/NUMPLUS.luac",
+			"run_in_menu": false,
+			"run_in_game": true,
+			"localized": false
+		},
+		{
+			"keybind_id": "TELEPORT",
+			"name": "PENETRATIVE TELEPORT",
+			"description": "Bind at Middle Mouse Button",
+			"script_path": "P3DHack/Button/Mouse/Teleport.luac",
+			"run_in_menu": false,
+			"run_in_game": true,
+			"localized": false
+		},
+		{
+			"keybind_id": "0x5A",
+			"name": "AMMO AND HEALTH REFILL",
+			"description": "Bind at Z",
+			"script_path": "P3DHack/Button/Keyboard/AmmoAndHealth.luac",
+			"run_in_menu": false,
+			"run_in_game": true,
+			"localized": false
+		},
+		{
+			"keybind_id": "0x58",
+			"name": "XRAY VISION TOGGLE",
+			"description": "Bind at X",
+			"script_path": "P3DHack/Button/Keyboard/XRay.luac",
+			"run_in_menu": false,
+			"run_in_game": true,
+			"localized": false
+		},
+		{
+			"keybind_id": "0x43",
+			"name": "AMMO REFILL",
+			"description": "Bind at C",
+			"script_path": "P3DHack/Button/Keyboard/AmmoRefill.luac",
+			"run_in_menu": false,
+			"run_in_game": true,
+			"localized": false
+		},
+		{
+			"keybind_id": "0x56",
+			"name": "DRIVE",
+			"description": "Bind at V",
+			"script_path": "P3DHack/Button/Keyboard/Drive.luac",
+			"run_in_menu": false,
+			"run_in_game": true,
+			"localized": false
+		},
+		{
+			"keybind_id": "VK_INSERT",
+			"name": "LOCATOR",
+			"description": "Bind at INSERT",
+			"script_path": "P3DHack/Button/Keyboard/Locator.luac",
+			"run_in_menu": false,
+			"run_in_game": true,
+			"localized": false
+		},
+		{
+			"keybind_id": "aim_bot",
+			"name": "Aimbot",
+			"description": "Bind at Home",
+			"script_path": "P3DHack/Button/Keyboard/Aimbot.luac",
+			"run_in_menu": false,
+			"run_in_game": true,
+			"localized": false
+		},
+		{
+			"keybind_id": "SLOWMO",
+			"name": "SLOWMO",
+			"description": "Bind at Delete",
+			"script_path": "P3DHack/Button/Keyboard/SlowMo.luac",
+			"run_in_menu": false,
+			"run_in_game": true,
+			"localized": false
+		},
+		{
+			"keybind_id": "VK_NoClip",
+			"name": "NoClip",
+			"description": "Bind at End",
+			"script_path": "P3DHack/Button/Keyboard/NoClipToggle.luac",
+			"run_in_menu": false,
+			"run_in_game": true,
+			"localized": false
+		},
+		{
+			"keybind_id": "VK_OEM_5",
+			"name": "GAGE PACK",
+			"description": "Bind at \\",
+			"script_path": "P3DHack/Button/Keyboard/GagePack.luac",
+			"run_in_menu": false,
+			"run_in_game": true,
+			"localized": false
+		},
+		{
+			"keybind_id": "0xBF",
+			"name": "REVIVE TEAM",
+			"description": "Bind at /",
+			"script_path": "P3DHack/Button/Keyboard/ReviveTeam.luac",
+			"run_in_menu": false,
+			"run_in_game": true,
+			"localized": false
+		},
+		{
+			"keybind_id": "VK_BACK",
+			"name": "PUSH STACK",
+			"description": "Bind at BACKSPACE",
+			"script_path": "P3DHack/Button/Keyboard/Pushstack.luac",
+			"run_in_menu": false,
+			"run_in_game": true,
+			"localized": false
+		},
+		{
+			"keybind_id": "VK_OEM_PLUS",
+			"name": "PUSH STACK UP",
+			"description": "Bind at -",
+			"script_path": "P3DHack/Button/Keyboard/Pushstackup.luac",
+			"run_in_menu": false,
+			"run_in_game": true,
+			"localized": false
+		},
+		{
+			"keybind_id": "VK_OEM_MINUS",
+			"name": "PUSH STACK DOWN",
+			"description": "Bind at =",
+			"script_path": "P3DHack/Button/Keyboard/Pushstackdown.luac",
+			"run_in_menu": false,
+			"run_in_game": true,
+			"localized": false
+		},
+		{
+			"keybind_id": "VK_DIVIDE",
+			"name": "Restart Job",
+			"description": "Bind at NUM /",
+			"script_path": "P3DHack/Button/NumPad/RestartJob.luac",
+			"run_in_menu": false,
+			"run_in_game": true,
+			"localized": false
+		},
+		{
+			"keybind_id": "VK_MULTIPLY",
+			"name": "Kill All",
+			"description": "Bind at NUM *",
+			"script_path": "P3DHack/Button/NumPad/KillAll.luac",
+			"run_in_menu": false,
+			"run_in_game": true,
+			"localized": false
+		},
+		{
+			"keybind_id": "VK_SUBTRACT",
+			"name": "Public XRay",
+			"description": "Bind at NUM -",
+			"script_path": "P3DHack/Button/NumPad/PublicXRay.luac",
+			"run_in_menu": false,
+			"run_in_game": true,
+			"localized": false
+		},
+		{
+			"keybind_id": "VK_DECIMAL",
+			"name": "Pager Answer",
+			"description": "Bind at NUM .",
+			"script_path": "P3DHack/Button/NumPad/PagerAnswer.luac",
+			"run_in_menu": false,
+			"run_in_game": true,
+			"localized": false
+		}
+	]
+}
