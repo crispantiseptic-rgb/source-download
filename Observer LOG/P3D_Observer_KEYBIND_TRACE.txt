@@ -1,0 +1,4 @@
+[P3D Observer v1.1.4] 2026-10-19 22:27:03 | BASELINE | ModPath=mods/base/ | SavePath=mods/saves/ | KEYBIND SCRIPT ENTERED before core load
+[P3D Observer v1.1.4] 2026-10-19 22:27:03 | BASELINE_CORE_LOADED | ModPath=mods/base/ | SavePath=mods/saves/ | observer_core.lua loaded successfully
+[P3D Observer v1.1.4] 2026-10-19 22:27:04 | COMPARE | ModPath=mods/base/ | SavePath=mods/saves/ | KEYBIND SCRIPT ENTERED before core load
+[P3D Observer v1.1.4] 2026-10-19 22:27:04 | COMPARE_CORE_LOADED | ModPath=mods/base/ | SavePath=mods/saves/ | observer_core.lua loaded successfully
