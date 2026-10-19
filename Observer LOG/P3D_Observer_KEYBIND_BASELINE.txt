@@ -1,3 +1,0 @@
-[P3D Observer v1.1.4] 2026-10-19 22:27:03 | BASELINE | ModPath=mods/base/ | SavePath=mods/saves/ | KEYBIND SCRIPT ENTERED before core load
-Trace paths written: mods/saves/P3D_Observer_KEYBIND_TRACE.txt | mods/P3D_Observer/P3D_Observer_KEYBIND_TRACE.txt
-Trace errors: 
